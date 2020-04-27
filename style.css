@@ -1,0 +1,38 @@
+body {
+    max-width: 1440px;
+    margin:auto;
+    padding: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 30px;
+    border: solid 10px black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 15em;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+#playerChoice, #computerChoice {
+    pointer-events: none;
+}
+
+.display {
+    display:none;
+}
